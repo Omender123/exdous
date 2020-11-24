@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="referal_code">रेफरल कोड</string>
+    <string name="country_code">देश कोड</string>
+    <string name="phone">फ़ोन नंबर</string>
+    <string name="country">देश नाम</string>
+    <string name="username"> उपयोगकर्ता नाम </string>
+
+   <!-- <string name="registration">Register</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome,</string>
+    <string name="sign_to">Sign in to Continue</string>
+    <string name="signUp">Sign Up</string>
+   -->
+
+    <string name = "registration">रजिस्टर करें </string>
+    <string name = "login"> लॉगिन </string>
+    <string name = "welcome"> स्वागत, </string>
+    <string name = "sign_to"> जारी रखने के लिए साइन इन करें </string>
+    <string name = "signUp"> साइन अप करें </string>-->
+</resources>

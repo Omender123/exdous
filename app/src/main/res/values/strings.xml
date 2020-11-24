@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">exdous</string>
+
+    // login and registration
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="referal_code">Referral Code</string>
+    <string name="country_code">Country Code</string>
+    <string name="phone">Phone No.</string>
+    <string name="country">Country</string>
+    <string name="username">Username</string>
+
+    <string name="registration">Register</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome,</string>
+    <string name="sign_to">Sign in to Continue</string>
+    <string name="signUp">Sign Up</string>
+</resources>

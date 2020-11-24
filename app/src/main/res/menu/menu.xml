@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/eng"
+        android:title="English"
+        android:orderInCategory="100"
+       />
+
+    <item android:id="@+id/Hindi"
+        android:title="Hindi"
+        android:orderInCategory="100"
+
+      />
+
+</menu>
+    <!--app:showAsAction="ifRoom|withText"
+     app:showAsAction="never"
+     android:showAsAction=["ifRoom" | "never" | "withText" | "always" | "collapseActionView"]-->
