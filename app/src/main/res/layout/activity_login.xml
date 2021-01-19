@@ -10,12 +10,14 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/whiteBackgorund"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/whiteBackgorund"
         android:elevation="4dp"
         >
 
@@ -35,10 +37,10 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/welcome"
+                    android:hint="@string/welcome"
                     android:textSize="28sp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/TextView"
 
 
                     />
@@ -55,9 +57,10 @@
                     />
             </RelativeLayout>
             <TextView
+                android:id="@+id/to"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/sign_to"
+                android:hint="@string/sign_to"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-light"
 
@@ -65,8 +68,13 @@
                 />
 
             <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/user"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:hintTextColor="@color/stoke"
+                app:boxStrokeColor="@color/TextView"
+                android:hint="@string/username"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_marginTop="40dp">
 
 
@@ -76,15 +84,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="@string/username"
+
 
                     />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                android:hint="@string/password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 app:passwordToggleEnabled="true">
 
                 <EditText
@@ -92,7 +105,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="@string/password"
                     android:inputType="textPassword"
                     />
             </com.google.android.material.textfield.TextInputLayout>
@@ -111,13 +123,61 @@
                 android:padding="15dp"
                 android:text="@string/login"
                 />
+
+            <!--<RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_gravity="center"
+                android:background="@drawable/spinner_background"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/dialog_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:dropDownVerticalOffset="35dp"
+                    android:popupBackground="#2196F3"
+                    android:textColor="@color/black"
+                    android:text="@string/selectedlanguage" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/drop" />
+
+            </RelativeLayout>-->
+            <androidx.appcompat.widget.SwitchCompat
+                android:textStyle="bold"
+                android:id="@+id/switchCompat"
+                android:text="@string/text"
+                android:textSize="15dp"
+                android:padding="10dp"
+                app:switchPadding="10dp"
+                android:checked="false"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <TextView
                 android:id="@+id/respones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                android:textColor="#333"
+                android:textColor="@color/TextView"
                 android:layout_marginTop="4dp"
                 />
         </LinearLayout>

@@ -9,8 +9,9 @@
     <color name="red">#FF0000</color>
     <color name="colorPrimary">#4CAF50</color>
 
-    <color name="whiteBackgorund">#FFFFFF</color>
-    <color name="TextView">#000000</color>
+    <color name="whiteBackgorund">#000000</color>
+    <color name="TextView">#FFFFFF</color>
+
     <color name="stoke">#2196F3</color>
 </resources>
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "app_name"> ہجرت </string>
+    // Login und Registrierung
+    <string name = "name"> نام </string>
+    <string name = "email"> ای میل </string>
+    <string name = "password"> پاس ورڈ</string>
+    <string name = "referal_code"> حوالہ کوڈ</string>
+    <string name = "country_code"> ملک کا کوڈ</string>
+    <string name = "phone"> فون نمبر.</string>
+    <string name = "country"> ملک </string>
+    <string name = "username"> صارف نام</string>
+
+    <string name = "registration"> رجسٹر کریں</string>
+    <string name = "login"> لاگ ان کریں</string>
+    <string name = "welcome"> خوش آمدید، </string>
+    <string name = "sign_to"> جاری رکھنے کیلئے سائن </string>
+    <string name = "signUp"> سائن اپ </string>
+    <string name = "selectedlanguage">منتخب زبان </string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name">余分な</string>
+    //ログインと登録
+<string name = "name">名前</string>
+<string name = "email">メール</string>
+<string name = "password">パスワード</string>
+<string name = "referal_code">紹介コード</string>
+<string name = "country_code">国コード</string>
+<string name = "phone">電話番号</string>
+<string name = "country">国</string>
+<string name = "username">ユーザー名</string>
+
+<string name = "registration">登録</string>
+<string name = "login">ログイン</string>
+<string name = "welcome">ようこそ</string>
+<string name = "sign_to">サインインして続行</string>
+<string name = "signUp">サインアップ</string>
+<string name = "selectedlanguage">選択された言語</string>
+</resources>

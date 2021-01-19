@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">एक्सोदेस</string>
+
     <string name="name">नाम</string>
     <string name="email">ईमेल</string>
     <string name="password">पासवर्ड</string>
@@ -20,5 +22,6 @@
     <string name = "login"> लॉगिन </string>
     <string name = "welcome"> स्वागत, </string>
     <string name = "sign_to"> जारी रखने के लिए साइन इन करें </string>
-    <string name = "signUp"> साइन अप करें </string>-->
+    <string name = "signUp"> साइन अप करें </string>
+    <string name="selectedlanguage">चयनित भाषा</string>
 </resources>

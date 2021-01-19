@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name = "app_name"> exdous </string>
+    // inicio de sesión y registro
+    <string name = "name"> Nombre </string>
+    <string name = "email"> Correo electrónico </string>
+    <string name ="password"> Contraseña </string>
+    <string name = "referal_code"> Código de referencia </string>
+    <string name = "country_code"> Código de país </string>
+    <string name = "phone"> Número de teléfono </string>
+    <string name = "country"> País </string>
+    <string name = "username"> Nombre de usuario </string>
+
+    <string name = "registration"> Registrarse </string>
+    <string name = "login"> Iniciar sesión </string>
+    <string name = "welcome"> Bienvenido, </string>
+    <string name = "sign_to"> Iniciar sesión para continuar </string>
+    <string name = "signUp"> Registrarse </string>
+    <string name = "selectedlanguage"> Idioma seleccionado </string>
+
+</resources>

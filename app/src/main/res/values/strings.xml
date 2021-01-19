@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">exdous</string>
-
     // login and registration
     <string name="name">Name</string>
     <string name="email">Email</string>
@@ -16,4 +16,6 @@
     <string name="welcome">Welcome,</string>
     <string name="sign_to">Sign in to Continue</string>
     <string name="signUp">Sign Up</string>
+    <string name="selectedlanguage">Selected language</string>
+    <string name="text">Light Mode</string>
 </resources>

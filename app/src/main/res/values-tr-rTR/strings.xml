@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> abartılı </string>
+    // giriş ve kayıt
+    <string name = "name"> Ad </string>
+    <string name = "email"> E-posta </string>
+    <string name = "password"> Şifre </string>
+    <string name = "referal_code"> Yönlendirme Kodu </string>
+    <string name = "country_code"> Ülke Kodu </string>
+    <string name = "phone"> Telefon No. </string>
+    <string name = "country"> Ülke </string>
+    <string name = "username"> Kullanıcı Adı </string>
+
+    <string name = "registration"> Kaydol </string>
+    <string name = "login"> Giriş </string>
+    <string name = "welcome"> Hoş geldiniz, </string>
+    <string name = "sign_to"> Devam Etmek için Oturum Açın </string>
+    <string name = "signUp"> Kaydolun </string>
+    <string name = "selectedlanguage"> Seçili dil </string>
+</resources>

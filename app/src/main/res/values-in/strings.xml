@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "app_name"> exdous </string>
+    // login dan registrasi
+    <string name = "name"> Nama </string>
+    <string name = "email"> Email </string>
+    <string name = "password"> Kata Sandi </string>
+    <string name = "referal_code"> Kode Referensi </string>
+    <string name = "country_code"> Kode Negara </string>
+    <string name = "phone"> No. Telepon </string>
+    <string name = "country"> Negara </string>
+    <string name = "username"> Nama Pengguna </string>
+
+    <string name = "registration">Daftar </string>
+    <string name = "login"> Masuk </string>
+    <string name = "welcome"> Selamat datang, </string>
+    <string name = "sign_to"> Masuk untuk Melanjutkan </string>
+    <string name = "signUp"> Daftar </string>
+    <string name = "selectedlanguage"> Bahasa yang dipilih </string>
+</resources>

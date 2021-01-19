@@ -11,11 +11,13 @@
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
+       android:background="@color/whiteBackgorund"
        android:orientation="vertical">
        <androidx.cardview.widget.CardView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            app:cardUseCompatPadding="true"
+           app:cardBackgroundColor="@color/whiteBackgorund"
            android:elevation="4dp"
            >
 
@@ -25,6 +27,7 @@
                android:layout_height="match_parent"
                android:orientation="vertical"
                android:layout_margin="15dp"
+
                >
                <RelativeLayout
                    android:layout_width="match_parent"
@@ -32,15 +35,13 @@
                    >
 
                    <TextView
-                       android:id="@+id/textView"
+                       android:id="@+id/textView1"
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="@string/registration"
+                       android:hint="@string/registration"
                        android:textSize="28sp"
                        android:textStyle="bold"
-                       android:textColor="@android:color/black"
-
-
+                       android:textColorHint="@color/TextView"
                        />
                    <TextView
                        android:id="@+id/txtLogin"
@@ -58,23 +59,31 @@
 
 
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_name"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   app:hintTextColor="@color/TextView"
+                    app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/name"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    android:layout_marginTop="40dp">
-
-
-
                    <EditText
                        android:id="@+id/ed_name"
+                       android:textStyle="bold"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:hint="@string/name"
                        android:inputType="textPersonName" />
                </com.google.android.material.textfield.TextInputLayout>
 
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_email"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
+                  app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/email"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    android:layout_marginTop="10dp">
 
 
@@ -82,27 +91,33 @@
                        android:id="@+id/ed_email"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:hint="@string/email"
                        android:inputType="textEmailAddress" />
                </com.google.android.material.textfield.TextInputLayout>
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_username"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
+                   app:hintTextColor="@color/TextView"
+                   app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/username"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    android:layout_marginTop="10dp">
-
-
                    <EditText
                        android:id="@+id/ed_username"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:hint="@string/username"
                        android:inputType="text" />
                </com.google.android.material.textfield.TextInputLayout>
 
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_password"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="10dp"
+                  app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/password"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    app:passwordToggleEnabled="true">
 
                    <EditText
@@ -110,28 +125,37 @@
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:ems="10"
-                       android:hint="@string/password"
                        android:inputType="textPassword" />
                </com.google.android.material.textfield.TextInputLayout>
 
 
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_Referral"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:layout_marginTop="10dp"
+                   android:hint="@string/referal_code"
+                  app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    app:passwordToggleEnabled="true">
+
 
                    <EditText
                        android:id="@+id/ed_referral_code"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:ems="10"
-                       android:hint="@string/referal_code"
                        android:inputType="textPassword" />
                </com.google.android.material.textfield.TextInputLayout>
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_country_code"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
+                  app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/country_code"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    android:layout_marginTop="10dp">
 
                    <EditText
@@ -139,13 +163,17 @@
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:ems="10"
-                       android:hint="@string/country_code"
                        android:inputType="text" />
                </com.google.android.material.textfield.TextInputLayout>
 
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_phone"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
+                  app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/phone"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    android:layout_marginTop="10dp">
 
                    <EditText
@@ -154,13 +182,17 @@
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:ems="10"
-                       android:hint="@string/phone"
                        android:inputType="number" />
                </com.google.android.material.textfield.TextInputLayout>
 
                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/In_Country"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
+                  app:hintTextColor="@color/TextView"
+                app:boxStrokeColor="@color/stoke"
+                   android:hint="@string/country"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                    android:layout_marginTop="10dp">
 
                    <EditText
@@ -169,7 +201,7 @@
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:ems="10"
-                       android:hint="@string/country"
+
                        android:inputType="text" />
                </com.google.android.material.textfield.TextInputLayout>
 

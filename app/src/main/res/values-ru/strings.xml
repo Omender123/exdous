@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> exdous </string>
+    // вход и регистрация
+    <string name = "name"> Имя </string>
+    <string name = "email"> Электронная почта </string>
+    <string name = "password"> Пароль </string>
+    <string name = "referal_code"> Реферальный код </string>
+    <string name = "country_code"> Код страны </string>
+    <string name = "phone"> Номер телефона </string>
+    <string name = "country"> Страна </string>
+    <string name = "username"> Имя пользователя </string>
+
+    <string name = "registration"> Зарегистрироваться </string>
+    <string name = "login"> Войти </string>
+    <string name = "welcome"> Добро пожаловать, </string>
+    <string name = "sign_to"> Войдите, чтобы продолжить </string>
+    <string name = "signUp"> Зарегистрироваться </string>
+    <string name = "selectedlanguage"> Выбранный язык </string>
+</resources>

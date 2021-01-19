@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> exdous </string>
+    // เข้าสู่ระบบและลงทะเบียน
+    <string name = "name"> ชื่อ </string>
+    <string name = "email"> อีเมล </string>
+    <string name = "password"> รหัสผ่าน </string>
+    <string name = "referal_code"> รหัสอ้างอิง </string>
+    <string name = "country_code"> รหัสประเทศ </string>
+    <string name = "phone"> หมายเลขโทรศัพท์ </string>
+    <string name = "country"> ประเทศ </string>
+    <string name = "username"> ชื่อผู้ใช้ </string>
+
+    <string name = "registration"> ลงทะเบียน </string>
+    <string name = "login"> เข้าสู่ระบบ </string>
+    <string name = "welcome"> ยินดีต้อนรับ </string>
+    <string name = "sign_to"> ลงชื่อเข้าใช้เพื่อดำเนินการต่อ </string>
+    <string name = "signUp"> สมัครใช้งาน </string>
+    <string name = "selectedlanguage"> ภาษาที่เลือก </string>
+</resources>

@@ -1,5 +1,4 @@
 package com.example.exdous;
-
 import android.app.Application;
 import android.content.Context;
 

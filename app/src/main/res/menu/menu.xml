@@ -4,14 +4,80 @@
 
     <item android:id="@+id/eng"
         android:title="English"
+        app:showAsAction="never"
         android:orderInCategory="100"
        />
 
     <item android:id="@+id/Hindi"
         android:title="Hindi"
         android:orderInCategory="100"
-
-      />
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Mandarin_Chinese"
+        android:title="Mandarin Chinese"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Spanish"
+        android:title="Spanish"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/French"
+    android:title="French"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    />
+    <item android:id="@+id/Arabic"
+        android:title="Arabic"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Russian"
+        android:title="Russian"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Portuguese"
+        android:title="Portuguese"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Indonesian"
+        android:title="Indonesian"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Japanese"
+        android:title="Japanese"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Urdu"
+        android:title="Urdu "
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/german"
+        android:title="German"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Turkish"
+        android:title="Turkish"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Vietnamese"
+        android:title="Vietnamese"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Thai"
+        android:title="Thai"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
 
 </menu>
     <!--app:showAsAction="ifRoom|withText"

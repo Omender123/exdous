@@ -1,10 +1,15 @@
 package com.example.exdous;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -19,6 +24,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.exdous.Helper.LocaleHelper;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.kaopiz.kprogresshud.KProgressHUD;
 
 import org.json.JSONException;
@@ -26,8 +34,11 @@ import org.json.JSONException;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.paperdb.Paper;
+
 public class Registration extends AppCompatActivity {
-TextView Login,responsess;
+    TextInputLayout In_name,In_email,In_username,In_password,In_Referral,In_country_code,In_phone,In_Country;
+TextView Login,responsess,textView1;
 EditText name,email,username,password,referralCode,countryCode,phone,country;
 Button resgister_button;
 KProgressHUD progressDialog;
@@ -38,6 +49,19 @@ KProgressHUD progressDialog;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+        // language
+        textView1=findViewById(R.id.textView1);
+        In_name=findViewById(R.id.In_name);
+        In_email=findViewById(R.id.In_email);
+        In_username=findViewById(R.id.In_username);
+        In_password=findViewById(R.id.In_password);
+        In_Referral=findViewById(R.id.In_Referral);
+        In_country_code=findViewById(R.id.In_country_code);
+        In_phone=findViewById(R.id.In_phone);
+        In_Country=findViewById(R.id.In_Country);
+
+
+
         Login=findViewById(R.id.txtLogin);
         responsess=findViewById(R.id.respones);
         Login.setOnClickListener(new View.OnClickListener() {
@@ -51,7 +75,7 @@ KProgressHUD progressDialog;
         username=findViewById(R.id.ed_username);
         password=findViewById(R.id.ed_password);
         referralCode=findViewById(R.id.ed_referral_code);
-        countryCode=findViewById(R.id.country);
+        countryCode=findViewById(R.id.country_code);
         phone=findViewById(R.id.phone);
         country=findViewById(R.id.country);
         resgister_button=findViewById(R.id.btn_register);
@@ -62,7 +86,89 @@ KProgressHUD progressDialog;
                signup();
             }
         });
+        updateView((String) Paper.book().read("language"));
+    }
+    private void updateView(String language) {
+        Context context = LocaleHelper.setLocale(this,language);
 
+        Resources resources =context.getResources();
+        In_username.setHint(resources.getString(R.string.username));
+        In_password.setHint(resources.getString(R.string.password));
+        In_email.setHint(resources.getString(R.string.email));
+        In_name.setHint(resources.getString(R.string.name));
+        In_Referral.setHint(resources.getString(R.string.referal_code));
+        In_country_code.setHint(resources.getString(R.string.country_code));
+        In_phone.setHint(resources.getString(R.string.phone));
+        In_Country.setHint(resources.getString(R.string.country));
+        resgister_button.setText(resources.getString(R.string.registration));
+        Login.setText(resources.getString(R.string.login));
+        textView1.setHint(resources.getString(R.string.registration));
+         getSupportActionBar().setTitle(resources.getString(R.string.app_name));
+
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId()==R.id.eng){
+            Paper.book().write("language","en");
+            updateView((String)Paper.book().read("language"));
+        }else  if(item.getItemId()==R.id.Hindi){
+            Paper.book().write("language","hi");
+            updateView((String)Paper.book().read("language"));
+        }else if(item.getItemId()==R.id.Mandarin_Chinese){
+            Paper.book().write("language","mc");
+            updateView((String)Paper.book().read("language"));
+        }else if(item.getItemId()==R.id.Arabic){
+            Paper.book().write("language","ar");
+            updateView((String)Paper.book().read("language"));
+        }else if(item.getItemId()==R.id.French){
+            Paper.book().write("language","fr");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Spanish){
+            Paper.book().write("language","sp");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Russian){
+            Paper.book().write("language","ru");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Portuguese){
+            Paper.book().write("language","pt");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Indonesian){
+            Paper.book().write("language","in");
+            updateView((String)Paper.book().read("language"));
+        }else if(item.getItemId()==R.id.Japanese){
+            Paper.book().write("language","ja");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Urdu){
+            Paper.book().write("language","ur");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.german){
+            Paper.book().write("language","gr");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Turkish){
+            Paper.book().write("language","tr");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Vietnamese){
+            Paper.book().write("language","vi");
+            updateView((String)Paper.book().read("language"));
+        }
+        else if(item.getItemId()==R.id.Thai){
+            Paper.book().write("language","th");
+            updateView((String)Paper.book().read("language"));
+        }
+        return true;
     }
 
     public void signup() {
@@ -136,13 +242,13 @@ KProgressHUD progressDialog;
         } else {
             username.setError(null);
         }
-        if (refercode.isEmpty()) {
+    /*    if (refercode.isEmpty()) {
             referralCode.setError("Please enter Referral Code");
             requestFocus(referralCode);
             valid = false;
         } else {
             referralCode.setError(null);
-        }
+        }*/
         if (country_Code.isEmpty()) {
             countryCode.setError("Please enter Country Code");
             requestFocus(countryCode);

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> exdous </string>
+    // đăng nhập và đăng ký
+    <string name = "name"> Tên </string>
+    <string name = "email"> Email </string>
+    <string name = "password"> Mật khẩu </string>
+    <string name = "referal_code"> Mã giới thiệu </string>
+    <string name = "country_code"> Mã quốc gia </string>
+    <string name = "phone"> Số điện thoại </string>
+    <string name = "country"> Quốc gia </string>
+    <string name = "username"> Tên người dùng </string>
+
+    <string name = "registration"> Đăng ký </string>
+    <string name = "login"> Đăng nhập </string>
+    <string name = "welcome"> Xin chào, </string>
+    <string name = "sign_to"> Đăng nhập để Tiếp tục </string>
+    <string name = "signUp"> Đăng ký </string>
+    <string name = "selectedlanguage"> Ngôn ngữ đã chọn </string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> exdous </string>
+    // Login und Registrierung
+    <string name = "name"> Name </string>
+    <string name = "email"> E-Mail </string>
+    <string name = "password"> Passwort </string>
+    <string name = "referal_code"> Empfehlungscode </string>
+    <string name = "country_code"> Ländercode </string>
+    <string name = "phone"> Telefonnummer </string>
+    <string name = "country"> Land </string>
+    <string name = "username"> Benutzername </string>
+
+    <string name = "registration"> Registrieren </string>
+    <string name = "login"> Login </string>
+    <string name = "welcome"> Willkommen, </string>
+    <string name = "sign_to"> Melden Sie sich an, um fortzufahren </string>
+    <string name = "signUp"> Anmelden </string>
+    <string name = "selectedlanguage"> Ausgewählte Sprache </string>
+</resources>

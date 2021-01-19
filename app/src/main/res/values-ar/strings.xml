@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> غريب </string>
+    <string name = "name"> الاسم </string>
+    <string name = "email"> البريد الإلكتروني </string>
+    <string name = "password"> كلمة المرور </string>
+    <string name = "referal_code"> رمز الإحالة </string>
+    <string name = "country_code"> رمز البلد </string>
+    <string name = "phone"> رقم الهاتف </string>
+    <string name = "country"> البلد </string>
+    <string name = "username"> اسم المستخدم </string>
+
+    <string name = "registration"> تسجيل </string>
+    <string name = "login"> تسجيل الدخول </string>
+    <string name = "welcome"> مرحبًا ، </string>
+    <string name = "sign_to"> قم بتسجيل الدخول للمتابعة </string>
+    <string name = "signUp"> تسجيل </string>
+    <string name = "selectedlanguage"> اللغة المحددة </string>
+
+
+   <!-- <string name="app_name">غريب</string>
+    // login and registration
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="referal_code">Referral Code</string>
+    <string name="country_code">Country Code</string>
+    <string name="phone">Phone No.</string>
+    <string name="country">Country</string>
+    <string name="username">Username</string>
+
+    <string name="registration">Register</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome,</string>
+    <string name="sign_to">Sign in to Continue</string>
+    <string name="signUp">Sign Up</string>
+    <string name="selectedlanguage">Selected language</string>-->
+</resources>
